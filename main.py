@@ -10,7 +10,7 @@ from torch.utils.data import Dataset, DataLoader
 """Inputs for training data """
 
 train_data = r"file_path"
-df_train_data = pd.read_excel(train_data) 
+df_train_data = pd.read_excel(Training Data.xlsx) 
 
 x_inp = pd.read_excel(train_data, usecols=["Distance, x"])
 t_inp = pd.read_excel(train_data, usecols=["Time (s)"]) 
