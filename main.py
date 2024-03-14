@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 
 """Inputs for training data """
 
-train_data = r"C:\Users\cia20fs\Training Data.xlsx"
+train_data = r"file_path"
 df_train_data = pd.read_excel(train_data) 
 
 x_inp = pd.read_excel(train_data, usecols=["Distance, x"])
